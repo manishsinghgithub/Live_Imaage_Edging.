@@ -2,7 +2,7 @@ import cv2 as cv
 import  numpy as np
 
 #this code is for edg detection taking single pic.
-'''img=cv.imread('a1.jpg')    #reading image from secondry storage.
+'''img=cv.imread('ch1.jpg')    #reading image from secondry storage.
 cv.imwrite('RG.jpg',img)       #writting this image as new image.
 img=cv.cvtColor(img,cv.COLOR_BGR2RGB)  #changing colors frames
 
@@ -13,8 +13,8 @@ cv.imwrite('Gry.jpg',img)    #re-writting grray-frame image.
 
 img=cv.Canny(img,threshold1=100,threshold2=100)   #Dedecting edges on boundary(thresold1) and 
 #inside boundary(thresold2) image.
-cv.imwrite('Edge.jpg',img)
-cv.imshow('Edge.jpg',img)
+cv.imwrite('canny.jpg',img)
+cv.imshow('canny.jpg',img)
 cv.waitKey(0)
 cv.destroyAllWindows()'''
 
